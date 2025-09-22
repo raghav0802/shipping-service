@@ -1,0 +1,19 @@
+
+
+services:
+  shipping-service:
+    build: .
+    container_name: shipping-service
+    ports:
+      - "8082:8080"
+    environment:
+      SPRING_DATA_MONGODB_URI: "mongodb+srv://Raghav0802:raghav@cluster0.l1mrrhj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+      SPRING_KAFKA_BOOTSTRAP_SERVERS: "inventory-kafka:9092"  # connect to inventory Kafka
+    networks:
+      - inventory-net
+
+networks:
+  inventory-net:
+    external: true
+
+
