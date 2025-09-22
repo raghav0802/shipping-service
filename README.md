@@ -165,6 +165,3 @@ spring.kafka.bootstrap-servers=inventory-kafka:9092
 jwt.secret=<your-secret-key>
 code
 Code
-I've wrapped your provided text in a markdown code block so you can directly copy and paste it into your GitHub `README.md` file.
-
-Would you like me to generate an image, perhaps a diagram illustrating the service architecture with Kafka and MongoDB, to include in your README?
