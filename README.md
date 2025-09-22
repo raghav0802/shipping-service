@@ -1,5 +1,4 @@
-code
-Markdown
+
 # Inventory Management Service
 
 Inventory Management Service is a Spring Boot microservice responsible for managing product inventory, producing Kafka events, and providing secure access through JWT-based authentication.
